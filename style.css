@@ -1,0 +1,72 @@
+/* no touchy */
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    user-select: none;
+}
+
+.main{
+    display: flex;
+    gap: 200px;
+}
+/*  */
+
+/* all the img css here */
+.upgrade-img{
+    width: 80px;
+}
+
+
+.max-img{
+    width:300px;
+    height: 155px;
+}
+
+.max-img-small{
+    width: 50px;
+}
+
+/* end img css sec */
+
+.left h3{
+    text-align: center;
+}
+
+.mid-sec h4{
+    margin: 0;
+    padding: 10px;
+}
+
+/* css for the upgrades */
+.upgrade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+    border: 2px solid salmon;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.upgrade-info{
+    display: flex;
+    gap: 5px;
+
+}
+
+.level-info{
+    position: absolute;
+    right: -105px;
+    background-color: aliceblue;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    display: none;
+}
+.upgrade:hover .level-info{
+    display: block;
+}
